@@ -1,42 +1,99 @@
 {
-    "question":"Waarvoor zoekt u een betaaloplossing?",
-    "options":{
-        "webwinkel":{
-            "answer":"webwinkel",
-            "final":"false",
-            "question":"betaalmethode",
-            "options":{
+    "question":"Waarvoor zoekt u een betaal oplossing?",
+    "sub_question":
+    {},
+    "options":
+    {
+        "1":{ //
+            "answer":"Voor mijn webwinkel.",
+            "finished":false,
+            
+            "question":"Hoe wilt u dat uw klanten u betalen.",
+            "sub_question":
+            {
+              "1":"Betalingen accepteren via creditcard; zowel binnen als buitenlands.",
+              "2":"Snel Betalingen accepteren van Paypal en niet Paypal gebruikers.",
+              "3":"Gratis uw producten en aanbiedingen promoten.",
+              "4":"Gratis tips verkrijgen."
+            },
+
+            "options":
+            {  
                 "eenvoudig":{
                   "answer":"lorem",
-                  "final":"false",
+                  "finished":false,
                   "question":""
                   },
                 "":{
                   "answer":"lorem",
-                  "final":"false"
+                  "finished":false
                   },
                   "option3":{
                   "answer":"lorem",
-                  "final":"true"
+                  "finished":true
                   },
             }
 
         },
-        "option2":{
-            "answer":"lorem",
-            "final":"false"
+
+        "2":{ //
+            "answer":"Klanten email factureren",
+            "finished":true,
+            
+            "question":"E-mail betalingen.",
+            "sub_question":
+            {
+              "1":"Uw klanten verzoeken per email te betalen.",
+              "2":"Directe betalingen verichten.",
+              "3":"Snel en makkelijk proffesionele facturen maken.",
+              "4":"Meerdere betalingen tegelijk verichten"
+            },
+            
+            "options":
+            {
+              "1":"Aanmeldings formulier."
+            }
         },
-        "option3":{
-            "answer":"lorem",
-            "final":"false"
+
+        "3":{
+            "answer":"Ik wil direct afrekenen op marktplaats met gratis kopersbescherming.",
+            "finished":true,
+            
+            "question":"Markplaatsbetalingen met Paypal",
+            "sub_question":
+            {},
+            
+            "options":
+            {
+              "1":"Paypal/Markplaats website."
+            }
         },
-        "option4":{
-            "answer":"lorem",
-            "final":"false"
+
+        "4":{
+            "answer":"Ik wil direct afrekenen op ebay met gratis kopersbescherming.",
+            "finished":true,
+            
+            "question":"Markplaatsbetalingen met Paypal",
+            "sub_question":
+            {},
+            
+            "options":
+            {
+              "1":"Paypal/Markplaats website."
+            }
         },
-        "option5":{
-            "answer":"lorem",
-            "final":"true"
+        "5":{
+            "answer":"Geen keuze.",
+            "finished":true,
+            
+            "question":"",
+            "sub_question":
+            {},
+            
+            "options":
+            {
+              "1":"Webform waar gebruiker zijn vraag kan stellen."
+            }
         },
 
     }
