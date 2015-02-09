@@ -1,11 +1,24 @@
 window.onload = function() {
 
-var xmlrequest = new XMLHttpRequest();
-var url = 'content.json';
 
-xmlrequest.open("GET", url, true);
-xmlrequest.send();
+function JSON(url)
+{
+    this.client = new XMLHttpRequest();
+    this.url    = url
+    this.get    = GET
 
-var a= JSON.parse(xmlrequest.open("GET", url, true))
-console.log(a)
+    function GET()
+    {
+        this.client.open("GET", this.url);        
+        JSON.parse(this.client.responseText)    
+        this.client.send();
+    }
+
+}
+
+
+var Hay = new JSON('content.json');
+
+console.log(Hay.get())
+
 };

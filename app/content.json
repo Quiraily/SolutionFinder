@@ -1,10 +1,10 @@
 {
     "question":"Waarvoor zoekt u een betaal oplossing?",
     "sub_question":
-    {},
+    {"":""},
     "options":
     {
-        "1":{ //
+        "1":{ 
             "answer":"Voor mijn webwinkel.",
             "finished":false,
             
@@ -19,24 +19,25 @@
 
             "options":
             {  
-                "eenvoudig":{
+                "1":{
                   "answer":"lorem",
                   "finished":false,
                   "question":""
                   },
-                "":{
+                "2":{
                   "answer":"lorem",
                   "finished":false
                   },
-                  "option3":{
+                
+                "3":{
                   "answer":"lorem",
                   "finished":true
-                  },
+                  }
             }
 
         },
 
-        "2":{ //
+        "2":{ 
             "answer":"Klanten email factureren",
             "finished":true,
             
@@ -94,7 +95,6 @@
             {
               "1":"Webform waar gebruiker zijn vraag kan stellen."
             }
-        },
-
+        }
     }
 }
