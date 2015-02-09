@@ -1,0 +1,39 @@
+h1
+{margin:0;}
+
+.root 
+{max-width:960px;height:100%;margin:0 auto;background:#DB1111;}
+
+.main 
+{
+    width:100%;
+    .main-title 
+    {
+        text-align:center;
+        padding:25px 0px;
+        width:100%;
+    }
+    .main-information-parent 
+    {
+        width:25%;
+        float:left
+    }
+    .main-options-parent
+    {
+        width:75%;
+        float:left;
+    }
+    .main-nav-parent
+    {
+        width:100%;
+        .main-nav-child
+        {
+            width:25%;
+            float:left;
+        }
+    }
+
+}
+
+
+
