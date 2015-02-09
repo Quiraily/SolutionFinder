@@ -1,7 +1,43 @@
 {
-    "PATH":"1",
-    "OPTIONS":
-    {
-        
+    "question":"Waarvoor zoekt u een betaaloplossing?",
+    "options":{
+        "webwinkel":{
+            "answer":"webwinkel",
+            "final":"false",
+            "question":"betaalmethode",
+            "options":{
+                "eenvoudig":{
+                  "answer":"lorem",
+                  "final":"false",
+                  "question":""
+                  },
+                "":{
+                  "answer":"lorem",
+                  "final":"false"
+                  },
+                  "option3":{
+                  "answer":"lorem",
+                  "final":"true"
+                  },
+            }
+
+        },
+        "option2":{
+            "answer":"lorem",
+            "final":"false"
+        },
+        "option3":{
+            "answer":"lorem",
+            "final":"false"
+        },
+        "option4":{
+            "answer":"lorem",
+            "final":"false"
+        },
+        "option5":{
+            "answer":"lorem",
+            "final":"true"
+        },
+
     }
 }
