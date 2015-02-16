@@ -2,7 +2,7 @@ var tree = {
     "q1": {
         "question": "Waarvoor zoekt u een betaaloplossing?",
         "values": {
-            "Voor mijn webwinkel":                                                         q2,
+            "Voor mijn webwinkel":                                                         "q2",
             "Ik verkoop niet in een webwinkel maar wil mijn klanten per e-mail facturen.": "form:aanmeld",
             "Ik wil direct afrekenen op markplaats.nl met gratis kopersbescherming.":      "info:marktplaats",
             "Ik wil direct afrekenen op ebay.nl met gratis kopersbescherming.":            "info:marktplaats",
@@ -12,8 +12,8 @@ var tree = {
     "q2": {
         "question": "Hoe wilt u dat uw klanten u betalen?",
         "values": {
-            "Ik wil klanten eenvoudig in 3 klikken vanaf de productpagina in mijn webwinkel laten afrekenen.": q3,
-            "Ik wil PayPal als betaaloptie aan mijn eigen online afrekenmethode toevoegen.":                   q3,
+            "Ik wil klanten eenvoudig in 3 klikken vanaf de productpagina in mijn webwinkel laten afrekenen.": "q3",
+            "Ik wil PayPal als betaaloptie aan mijn eigen online afrekenmethode toevoegen.":                   "q3",
             "Ik weet niet/anders":                                                                             "form:question"
         }
     },
@@ -21,7 +21,7 @@ var tree = {
         "question": "Hoe wilt u onze betaaloplossing integreren?",
         "values": {
             "Ik wil het integreren in mijn webwinkel via HTML":              "form:aanmeld",
-            "Ik wil het integreren in mijn webwinkel via API's/webservices": q5,
+            "Ik wil het integreren in mijn webwinkel via API's/webservices": "q5",
             "Ik weet niet/anders":                                           "form:question"
         }
     },
