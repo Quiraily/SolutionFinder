@@ -1,31 +1,31 @@
 var tree = {
-    "1": {
+    "q1": {
         "question": "Waarvoor zoekt u een betaaloplossing?",
         "values": {
-            "Voor mijn webwinkel":                                                         2,
+            "Voor mijn webwinkel":                                                         q2,
             "Ik verkoop niet in een webwinkel maar wil mijn klanten per e-mail facturen.": "form:aanmeld",
             "Ik wil direct afrekenen op markplaats.nl met gratis kopersbescherming.":      "info:marktplaats",
             "Ik wil direct afrekenen op ebay.nl met gratis kopersbescherming.":            "info:marktplaats",
             "Geen van deze keuzes.":                                                       "form:question"
         }
     },
-    "2": {
+    "q2": {
         "question": "Hoe wilt u dat uw klanten u betalen?",
         "values": {
-            "Ik wil klanten eenvoudig in 3 klikken vanaf de productpagina in mijn webwinkel laten afrekenen.": 3,
-            "Ik wil PayPal als betaaloptie aan mijn eigen online afrekenmethode toevoegen.":                   3,
+            "Ik wil klanten eenvoudig in 3 klikken vanaf de productpagina in mijn webwinkel laten afrekenen.": q3,
+            "Ik wil PayPal als betaaloptie aan mijn eigen online afrekenmethode toevoegen.":                   q3,
             "Ik weet niet/anders":                                                                             "form:question"
         }
     },
-    "3": {
+    "q3": {
         "question": "Hoe wilt u onze betaaloplossing integreren?",
         "values": {
             "Ik wil het integreren in mijn webwinkel via HTML":              "form:aanmeld",
-            "Ik wil het integreren in mijn webwinkel via API's/webservices": 5,
+            "Ik wil het integreren in mijn webwinkel via API's/webservices": q5,
             "Ik weet niet/anders":                                           "form:question"
         }
     },
-    "4": {
+    "q4": {
         "question": "Hoe wilt u zich aanmelden voor de webwinkelbetalingen (HTML)?",
         "values" : {
             "Aanmelden bij PayPal":                          "form:aanmeld",
@@ -34,7 +34,7 @@ var tree = {
             "Aanmelden bij een webwinkel software provider": "overzicht:software",
         }
     },
-    "5": {
+    "q5": {
         "question": "Hoe wilt u zich aanmelden voor de webwinkelbetalingen (API)?",
         "values" : {
             "Aanmelden bij PayPal":                          "form:aanmeld",
@@ -46,7 +46,7 @@ var tree = {
 };
 
 var text = {
-    "2": {
+    "q2": {
         "title": "Met alle betaaloplossingen van PayPal kunt u",
         "values": [
             "Betalingen accepteren via elke bank of creditcard binnen en buiten nederland",
@@ -55,7 +55,7 @@ var text = {
             "Betalingen accepteren via elke bank of creditcard binnen en buiten nederland",
         ],
     },
-    "3": {
+    "q3": {
         "title": "Met alle betaaloplossingen van PayPal kunt u",
         "values": [
             "geen exta opstartkosten",
